@@ -25,7 +25,7 @@ jobs:
     name: Impact analysis of dbt changes
     steps:
       - name: dbt impact analysis
-        uses: siffletdata/dbt-impact-analysis@v1
+        uses: siffletdata/dbt-impact-analysis-action@v1
         with:
           git-provider-token: ${{ secrets.GITHUB_TOKEN }} # You can keep this as-is
           sifflet-instance-url: <THE FULL URL OF YOUR SIFFLET ENVIRONMENT> # This should have the following format: https://<your_instance_name>.siffletdata.com

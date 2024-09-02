@@ -1,5 +1,5 @@
 name: 'Sifflet dbt impact analysis action'
-description: ''
+description: 'When you raise a PR containing dbt updates, this action adds an impact analysis report using the Sifflet API.'
 inputs:
   git-provider-token:
     required: true

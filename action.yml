@@ -19,7 +19,7 @@ inputs:
 
 runs:
   using: 'docker'
-  image: 'docker://public.ecr.aws/t4w7y9m8/sifflet/dbt-impact-analysis:v1.1.0'
+  image: 'docker://public.ecr.aws/t4w7y9m8/sifflet/dbt-impact-analysis:v1.2.0'
   args:
     - 'github'
     - ${{ inputs.git-provider-token }}
